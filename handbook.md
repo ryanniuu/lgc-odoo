@@ -54,6 +54,8 @@
 ## Other Resources
 ### HTML URL to this file
 https://ryanniuu.github.io/lgc-odoo/handbook.html
-
+### markdown how to use (cheatsheet)
+https://www.markdownguide.org/cheat-sheet/
+### how to include a picture/snapshot
 ![showing a snapshot here](images/sales-portal.png)
 
