@@ -50,3 +50,8 @@
 ### Sales Report
 ### Margin Report
 ### Inventory Report
+
+## Other Resources
+### HTML URL to this file
+https://ryanniuu.github.io/lgc-odoo/handbook.html
+
