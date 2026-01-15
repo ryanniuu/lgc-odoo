@@ -55,3 +55,5 @@
 ### HTML URL to this file
 https://ryanniuu.github.io/lgc-odoo/handbook.html
 
+![showing a snapshot here](images/sales-portal.png)
+
