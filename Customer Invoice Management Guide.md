@@ -22,7 +22,7 @@ This section covers the standard workflow from initial sale to formal invoicing.
 
 ### Step 3: Print Customer Invoice
 + You can print the formal customer invoice document directly from the order.
-
++ If the quantity is changed to 0, then the products in this row will not be displayed.
 <!-- 这是一张图片，ocr 内容为： -->
 ![](https://github.com/ryanniuu/lgc-odoo/blob/main/images/lgc_customer_invoice/image5.png)
 
@@ -99,7 +99,7 @@ Navigate to the **Invoices** section.
 
 ---
 
-## 5. Refund (Credit Notes)
+## 5. Refund (No delivery)
 ### Method 1: Add Credit Note (Recommended for Full Refunds)
 + For the invoice requiring a refund, click **"Add Credit Note"** to create a refund for the entire order.  
 <!-- 这是一张图片，ocr 内容为： -->
@@ -119,3 +119,16 @@ Navigate to the **Invoices** section.
 <!-- 这是一张图片，ocr 内容为： -->
 ![](https://github.com/ryanniuu/lgc-odoo/blob/main/images/lgc_customer_invoice/image24.png)
 
+
+## 6. Refund And Return (Already delivered)
++ Follow the steps in Chapter 5 to create a refund invoice and process the refund.
++ Locate the corresponding delivery order, click the "return" button, and validate it.
+
+![](https://github.com/ryanniuu/lgc-odoo/blob/main/images/lgc_customer_invoice/image25.png)
+![](https://github.com/ryanniuu/lgc-odoo/blob/main/images/lgc_customer_invoice/image26.png)
+
++ Enter the quantity of returned items and select the return location.
+![](https://github.com/ryanniuu/lgc-odoo/blob/main/images/lgc_customer_invoice/image27.png)
+
+After being returned to the warehouse, validate the returned allocation.
+![](https://github.com/ryanniuu/lgc-odoo/blob/main/images/lgc_customer_invoice/image28.png)
