@@ -6,7 +6,7 @@ This section covers the standard workflow from initial sale to formal invoicing.
 + Click the **"Confirm"** button to convert the quotation into a formal sales order.
 
 <!-- 这是一张图片，ocr 内容为： -->
-![]([https://cdn.nlark.com/yuque/0/2026/png/38859133/1773639424236-e00275c3-3916-49b9-96f8-e35c7a3527a2.png](https://github.com/ryanniuu/lgc-odoo/blob/main/images/lgc_customer_invoice/image1.png))
+![](https://github.com/ryanniuu/lgc-odoo/blob/main/images/lgc_customer_invoice/image1.png)
 
 
 ### Step 2: Create and Confirm Invoice from Sale Order
