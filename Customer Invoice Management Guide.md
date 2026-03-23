@@ -81,6 +81,7 @@ Create the invoice and confirm it to adjust the final invoiced amount, then prin
 ---
 
 ## 4. Register Payment
+### Method 1: Trun to invoice
 Navigate to the **Invoices** section.  
 <!-- 这是一张图片，ocr 内容为： -->
 ![](https://github.com/ryanniuu/lgc-odoo/blob/main/images/lgc_customer_invoice/image16.png)
@@ -97,7 +98,8 @@ Navigate to the **Invoices** section.
 <!-- 这是一张图片，ocr 内容为： -->
 ![](https://github.com/ryanniuu/lgc-odoo/blob/main/images/lgc_customer_invoice/image19.png)
 
----
+### Method 2: Register Payment on sale order
+![](https://github.com/ryanniuu/lgc-odoo/blob/main/images/lgc_customer_invoice/image60.png)
 
 ## 5. Refund (No delivery)
 ### Method 1: Add Credit Note (Recommended for Full Refunds)
@@ -132,3 +134,16 @@ Navigate to the **Invoices** section.
 
 After being returned to the warehouse, validate the returned allocation.
 ![](https://github.com/ryanniuu/lgc-odoo/blob/main/images/lgc_customer_invoice/image28.png)
+
+
+## 7. Cancel order (with posted invoices)
++ Cancel Sale order
+  The purpose of canceling an order is to automatically cancel the sales order.
+![](https://github.com/ryanniuu/lgc-odoo/blob/main/images/lgc_customer_invoice/image29.png)
+
++ Add Credit Note from invoice and confirm
+![](https://github.com/ryanniuu/lgc-odoo/blob/main/images/lgc_customer_invoice/image30.png)
+![](https://github.com/ryanniuu/lgc-odoo/blob/main/images/lgc_customer_invoice/image31.png)
+
++ Register refund 
+![](https://github.com/ryanniuu/lgc-odoo/blob/main/images/lgc_customer_invoice/image32.png)
