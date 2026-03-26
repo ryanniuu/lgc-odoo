@@ -1,3 +1,23 @@
+- [1. Create Order \& Invoice](#1-create-order--invoice)
+  - [Step 1: Create and Confirm Order](#step-1-create-and-confirm-order)
+  - [Step 2: Create and Confirm Invoice from Sale Order](#step-2-create-and-confirm-invoice-from-sale-order)
+  - [Step 3: Print Customer Invoice](#step-3-print-customer-invoice)
+- [2. Modify Order Quantity](#2-modify-order-quantity)
+  - [2.1 Increase Quantity or Add Line Items](#21-increase-quantity-or-add-line-items)
+  - [2.2 Reduce Quantity](#22-reduce-quantity)
+- [3. Adjust Invoiced Amount](#3-adjust-invoiced-amount)
+- [4. Register Payment](#4-register-payment)
+  - [Method 1: Trun to invoice](#method-1-trun-to-invoice)
+  - [Single Invoice](#single-invoice)
+  - [Multiple Invoices](#multiple-invoices)
+  - [Method 2: Register Payment on sale order](#method-2-register-payment-on-sale-order)
+- [5. Refund (No delivery)](#5-refund-no-delivery)
+  - [Method 1: Add Credit Note (Recommended for Full Refunds)](#method-1-add-credit-note-recommended-for-full-refunds)
+  - [Method 2: Modify Sales Order Quantity (Recommended for Small Partial Refunds)](#method-2-modify-sales-order-quantity-recommended-for-small-partial-refunds)
+- [6. Refund And Return (Already delivered)](#6-refund-and-return-already-delivered)
+- [7. Cancel order (with posted invoices)](#7-cancel-order-with-posted-invoices)
+
+
 ## 1. Create Order & Invoice
 This section covers the standard workflow from initial sale to formal invoicing.
 
