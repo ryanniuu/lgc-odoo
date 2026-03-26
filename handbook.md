@@ -2,60 +2,54 @@
 
 
 - [ ODOO User Handbook for Chivalry ](#-odoo-user-handbook-for-chivalry-)
-  - [Product Management](#product-management)
-  - [Sales Process](#sales-process)
-    - [Quotation to Confirmed Order](#quotation-to-confirmed-order)
-    - [Invoicing](#invoicing)
-    - [Payments](#payments)
-    - [Delivery Scheduling](#delivery-scheduling)
-    - [Delivery](#delivery)
-  - [Purchase Process](#purchase-process)
-  - [Inventory Management](#inventory-management)
-  - [Inter-company transfer](#inter-company-transfer)
-  - [Cash Management](#cash-management)
-  - [Meta-data Management](#meta-data-management)
+- [Sales and Invocing](#sales-and-invocing)
+- [Purchase Process](#purchase-process)
+- [Product Management](#product-management)
+- [Inventory Management](#inventory-management)
+- [Inter-company transfer](#inter-company-transfer)
+- [Cash Management](#cash-management)
+- [Meta-data Management](#meta-data-management)
     - [Vehicle Models](#vehicle-models)
     - [Packages](#packages)
     - [3D parts](#3d-parts)
-  - [Reporting](#reporting)
+- [Reporting](#reporting)
     - [Sales Report](#sales-report)
     - [Margin Report](#margin-report)
     - [Inventory Report](#inventory-report)
+- [Other Resources](#other-resources)
+    - [HTML URL to this file](#html-url-to-this-file)
+    - [markdown how to use (cheatsheet)](#markdown-how-to-use-cheatsheet)
+    - [how to include a picture/snapshot](#how-to-include-a-picturesnapshot)
 
 
-## Product Management
+# Sales and Invocing
 
-## Sales Process
-### Quotation to Confirmed Order
-### Invoicing
-### Payments
-### Delivery Scheduling
-### Delivery
 
-## Purchase Process
+# Purchase Process
 
-## Inventory Management
+# Product Management
 
-## Inter-company transfer
+# Inventory Management
 
-## Cash Management
+# Inter-company transfer
 
-## Meta-data Management
+# Cash Management
+
+# Meta-data Management
 ### Vehicle Models
 ### Packages
 ### 3D parts
 
 
-## Reporting
+# Reporting
 ### Sales Report
 ### Margin Report
 ### Inventory Report
 
-## Other Resources
+# Other Resources
 ### HTML URL to this file
 https://ryanniuu.github.io/lgc-odoo/handbook.html
 ### markdown how to use (cheatsheet)
 https://www.markdownguide.org/cheat-sheet/
 ### how to include a picture/snapshot
 ![showing a snapshot here](images/sales-portal.png)
-
