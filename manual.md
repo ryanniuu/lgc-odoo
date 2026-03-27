@@ -1,44 +1,49 @@
-- [Sales and Invocing](#sales-and-invocing)
-  - [1. Create Order \& Invoice](#1-create-order--invoice)
-    - [Step 1: Create and Confirm Order](#step-1-create-and-confirm-order)
-    - [Step 2: Create and Confirm Invoice from Sale Order](#step-2-create-and-confirm-invoice-from-sale-order)
-    - [Step 3: Print Customer Invoice](#step-3-print-customer-invoice)
-  - [2. Modify Order Quantity](#2-modify-order-quantity)
-    - [2.1 Increase Quantity or Add Line Items](#21-increase-quantity-or-add-line-items)
-    - [2.2 Reduce Quantity](#22-reduce-quantity)
-  - [3. Adjust Invoiced Amount](#3-adjust-invoiced-amount)
-  - [4. Register Payment](#4-register-payment)
-    - [Method 1: Trun to invoice](#method-1-trun-to-invoice)
-    - [Single Invoice](#single-invoice)
-    - [Multiple Invoices](#multiple-invoices)
-    - [Method 2: Register Payment on sale order](#method-2-register-payment-on-sale-order)
-  - [5. Refund (No delivery)](#5-refund-no-delivery)
-    - [Method 1: Add Credit Note (Recommended for Full Refunds)](#method-1-add-credit-note-recommended-for-full-refunds)
-    - [Method 2: Modify Sales Order Quantity (Recommended for Small Partial Refunds)](#method-2-modify-sales-order-quantity-recommended-for-small-partial-refunds)
-  - [6. Refund And Return (Already delivered)](#6-refund-and-return-already-delivered)
-  - [7. Cancel order (with posted invoices)](#7-cancel-order-with-posted-invoices)
-- [Purchase Process](#purchase-process)
-- [Product Management](#product-management)
-- [Inventory Management](#inventory-management)
-- [Inter-company transfer](#inter-company-transfer)
-- [Cash Management](#cash-management)
-- [Meta-data Management](#meta-data-management)
-    - [Vehicle Models](#vehicle-models)
-    - [Packages](#packages)
-    - [3D parts](#3d-parts)
-- [Reporting](#reporting)
-    - [Sales Report](#sales-report)
-    - [Margin Report](#margin-report)
-    - [Inventory Report](#inventory-report)
+- [1. Sales and Invocing](#1-sales-and-invocing)
+  - [1.1. Create Order \& Invoice](#11-create-order--invoice)
+    - [1.1.1. Step 1: Create and Confirm Order](#111-step-1-create-and-confirm-order)
+    - [1.1.2. Step 2: Create and Confirm Invoice from Sale Order](#112-step-2-create-and-confirm-invoice-from-sale-order)
+    - [1.1.3. Step 3: Print Customer Invoice](#113-step-3-print-customer-invoice)
+  - [1.2. Use "Sale Package" feature](#12-use-sale-package-feature)
+    - [1.2.1. Load Packages in Quotation/Order](#121-load-packages-in-quotationorder)
+    - [1.2.2. Create Sale Packages (privileged user only)](#122-create-sale-packages-privileged-user-only)
+    - [1.2.3. Create Package from Order (privileged user only)](#123-create-package-from-order-privileged-user-only)
+  - [1.3. Modify Order Quantity](#13-modify-order-quantity)
+    - [1.3.1. 2.1 Increase Quantity or Add Line Items](#131-21-increase-quantity-or-add-line-items)
+    - [1.3.2. 2.2 Reduce Quantity](#132-22-reduce-quantity)
+  - [1.4. Adjust Invoiced Amount](#14-adjust-invoiced-amount)
+  - [1.5. Register Payment](#15-register-payment)
+    - [1.5.1. Method 1: Trun to invoice](#151-method-1-trun-to-invoice)
+    - [1.5.2. Single Invoice](#152-single-invoice)
+    - [1.5.3. Multiple Invoices](#153-multiple-invoices)
+    - [1.5.4. Method 2: Register Payment on sale order](#154-method-2-register-payment-on-sale-order)
+  - [1.6. Refund (No delivery)](#16-refund-no-delivery)
+    - [1.6.1. Method 1: Add Credit Note (Recommended for Full Refunds)](#161-method-1-add-credit-note-recommended-for-full-refunds)
+    - [1.6.2. Method 2: Modify Sales Order Quantity (Recommended for Small Partial Refunds)](#162-method-2-modify-sales-order-quantity-recommended-for-small-partial-refunds)
+  - [1.7. Refund And Return (Already delivered)](#17-refund-and-return-already-delivered)
+  - [1.8. Cancel order (with posted invoices)](#18-cancel-order-with-posted-invoices)
+- [2. Purchase Process](#2-purchase-process)
+- [3. Product Management](#3-product-management)
+- [4. Inventory Management](#4-inventory-management)
+- [5. Inter-company transfer](#5-inter-company-transfer)
+- [6. Cash Management](#6-cash-management)
+- [7. Meta-data Management](#7-meta-data-management)
+    - [7.0.1. Vehicle Models](#701-vehicle-models)
+    - [7.0.2. Packages](#702-packages)
+    - [7.0.3. 3D parts](#703-3d-parts)
+- [8. Reporting](#8-reporting)
+    - [8.0.1. Sales Report](#801-sales-report)
+    - [8.0.2. Margin Report](#802-margin-report)
+    - [8.0.3. Inventory Report](#803-inventory-report)
 
 
-# Sales and Invocing
+
+# 1. Sales and Invocing
 
 
-## 1. Create Order & Invoice
+## 1.1. Create Order & Invoice
 This section covers the standard workflow from initial sale to formal invoicing.
 
-### Step 1: Create and Confirm Order
+### 1.1.1. Step 1: Create and Confirm Order
 + Create a new Sales Order (SO) in the system and fill in the customer and product details.
 + Click the **"Confirm"** button to convert the quotation into a formal sales order.
 
@@ -46,7 +51,7 @@ This section covers the standard workflow from initial sale to formal invoicing.
 ![](images/lgc_customer_invoice/image1.png)
 
 
-### Step 2: Create and Confirm Invoice from Sale Order
+### 1.1.2. Step 2: Create and Confirm Invoice from Sale Order
 + Click **"Create Invoice"** directly from the Sales Order and confirm the invoice.
 + Review the draft invoice and click **"Confirm"** to post it to the accounts.
 
@@ -57,7 +62,7 @@ This section covers the standard workflow from initial sale to formal invoicing.
 <!-- 这是一张图片，ocr 内容为： -->
 ![](images/lgc_customer_invoice/image4.png)
 
-### Step 3: Print Customer Invoice
+### 1.1.3. Step 3: Print Customer Invoice
 + You can print the formal customer invoice document directly from the order.
 + If the quantity is changed to 0, then the products in this row will not be displayed.
 <!-- 这是一张图片，ocr 内容为： -->
@@ -81,8 +86,15 @@ This section covers the standard workflow from initial sale to formal invoicing.
 
 ---
 
-## 2. Modify Order Quantity
-### 2.1 Increase Quantity or Add Line Items
+## 1.2. Use "Sale Package" feature
+### 1.2.1. Load Packages in Quotation/Order
+
+### 1.2.2. Create Sale Packages (privileged user only)
+
+### 1.2.3. Create Package from Order (privileged user only)
+
+## 1.3. Modify Order Quantity
+### 1.3.1. 2.1 Increase Quantity or Add Line Items
 1. Click the **"Edit"** button on the Sales Order.
 <!-- 这是一张图片，ocr 内容为： -->
 ![](images/lgc_customer_invoice/image9.png)
@@ -93,7 +105,7 @@ This section covers the standard workflow from initial sale to formal invoicing.
 <!-- 这是一张图片，ocr 内容为： -->
 ![](images/lgc_customer_invoice/image11.png)
 
-### 2.2 Reduce Quantity
+### 1.3.2. 2.2 Reduce Quantity
 + If the delivery note has not been locked value, simply adjust the quantity and save.
 + If the delivery note is already locked, the system will show a warning prompt.
 <!-- 这是一张图片，ocr 内容为： -->
@@ -110,24 +122,24 @@ This section covers the standard workflow from initial sale to formal invoicing.
 
 ---
 
-## 3. Adjust Invoiced Amount
+## 1.4. Adjust Invoiced Amount
 Create the invoice and confirm it to adjust the final invoiced amount, then print the "Customer Invoice" from the sale order.
 <!-- 这是一张图片，ocr 内容为： -->
 ![](images/lgc_customer_invoice/image15.png)
 
 ---
 
-## 4. Register Payment
-### Method 1: Trun to invoice
+## 1.5. Register Payment
+### 1.5.1. Method 1: Trun to invoice
 Navigate to the **Invoices** section.
 <!-- 这是一张图片，ocr 内容为： -->
 ![](images/lgc_customer_invoice/image16.png)
-### Single Invoice
+### 1.5.2. Single Invoice
 + Clicking on a single invoice will redirect you to that invoice; click **"Register Payment"** and fill in the information.
 <!-- 这是一张图片，ocr 内容为： -->
 ![](images/lgc_customer_invoice/image17.png)
 
-### Multiple Invoices
+### 1.5.3. Multiple Invoices
 + If there are multiple invoices, select the relevant ones from the list view.
 <!-- 这是一张图片，ocr 内容为： -->
 ![](images/lgc_customer_invoice/image18.png)
@@ -135,11 +147,11 @@ Navigate to the **Invoices** section.
 <!-- 这是一张图片，ocr 内容为： -->
 ![](images/lgc_customer_invoice/image19.png)
 
-### Method 2: Register Payment on sale order
+### 1.5.4. Method 2: Register Payment on sale order
 ![](images/lgc_customer_invoice/image60.png)
 
-## 5. Refund (No delivery)
-### Method 1: Add Credit Note (Recommended for Full Refunds)
+## 1.6. Refund (No delivery)
+### 1.6.1. Method 1: Add Credit Note (Recommended for Full Refunds)
 + For the invoice requiring a refund, click **"Add Credit Note"** to create a refund for the entire order.
 <!-- 这是一张图片，ocr 内容为： -->
 ![](images/lgc_customer_invoice/image20.png)
@@ -149,7 +161,7 @@ Navigate to the **Invoices** section.
 <!-- 这是一张图片，ocr 内容为： -->
 ![](images/lgc_customer_invoice/image22.png)
 
-### Method 2: Modify Sales Order Quantity (Recommended for Small Partial Refunds)
+### 1.6.2. Method 2: Modify Sales Order Quantity (Recommended for Small Partial Refunds)
 + Change the quantity of refunded products to `0` on the order page, then create an invoice.
 + If an invoice was already issued, the system will automatically generate a refund invoice.
 <!-- 这是一张图片，ocr 内容为： -->
@@ -159,7 +171,7 @@ Navigate to the **Invoices** section.
 ![](images/lgc_customer_invoice/image24.png)
 
 
-## 6. Refund And Return (Already delivered)
+## 1.7. Refund And Return (Already delivered)
 + Follow the steps in Chapter 5 to create a refund invoice and process the refund.
 + Locate the corresponding delivery order, click the "return" button, and validate it.
 
@@ -173,7 +185,7 @@ After being returned to the warehouse, validate the returned allocation.
 ![](images/lgc_customer_invoice/image28.png)
 
 
-## 7. Cancel order (with posted invoices)
+## 1.8. Cancel order (with posted invoices)
 + Cancel Sale order
   The purpose of canceling an order is to automatically cancel the sales order.
 ![](images/lgc_customer_invoice/image29.png)
@@ -188,23 +200,23 @@ After being returned to the warehouse, validate the returned allocation.
 
 
 
-# Purchase Process
+# 2. Purchase Process
 
-# Product Management
+# 3. Product Management
 
-# Inventory Management
+# 4. Inventory Management
 
-# Inter-company transfer
+# 5. Inter-company transfer
 
-# Cash Management
+# 6. Cash Management
 
-# Meta-data Management
-### Vehicle Models
-### Packages
-### 3D parts
+# 7. Meta-data Management
+### 7.0.1. Vehicle Models
+### 7.0.2. Packages
+### 7.0.3. 3D parts
 
 
-# Reporting
-### Sales Report
-### Margin Report
-### Inventory Report
+# 8. Reporting
+### 8.0.1. Sales Report
+### 8.0.2. Margin Report
+### 8.0.3. Inventory Report
