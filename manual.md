@@ -27,13 +27,13 @@
 - [5. Inter-company transfer](#5-inter-company-transfer)
 - [6. Cash Management](#6-cash-management)
 - [7. Meta-data Management](#7-meta-data-management)
-    - [7.0.1. Vehicle Models](#701-vehicle-models)
-    - [7.0.2. Packages](#702-packages)
-    - [7.0.3. 3D parts](#703-3d-parts)
+  - [7.1. Vehicle Models](#71-vehicle-models)
+  - [7.2. Packages](#72-packages)
+  - [7.3. 3D parts](#73-3d-parts)
 - [8. Reporting](#8-reporting)
-    - [8.0.1. Sales Report](#801-sales-report)
-    - [8.0.2. Margin Report](#802-margin-report)
-    - [8.0.3. Inventory Report](#803-inventory-report)
+  - [8.1. Sales Report](#81-sales-report)
+  - [8.2. Margin Report](#82-margin-report)
+  - [8.3. Inventory Report](#83-inventory-report)
 
 
 
@@ -84,6 +84,11 @@ This section covers the standard workflow from initial sale to formal invoicing.
 <!-- 这是一张图片，ocr 内容为： -->
 ![](images/lgc_customer_invoice/image8.png)
 
+
+> Note that if a product item (including "product discount" product) in your quotation/order has been "invoiced", do not change the pricing of that product anymore. This will create mis-alignments between quotation/order and total invoice amounts. Such operation is not allowed anymore.
+>
+> If you need to adjust final pricing, do it via adding another "price discount", or adding new product, or changing product quantity, but NOT changing product pricings.
+>
 ---
 
 ## 1.2. Use "Sale Package" feature
@@ -211,12 +216,12 @@ After being returned to the warehouse, validate the returned allocation.
 # 6. Cash Management
 
 # 7. Meta-data Management
-### 7.0.1. Vehicle Models
-### 7.0.2. Packages
-### 7.0.3. 3D parts
+## 7.1. Vehicle Models
+## 7.2. Packages
+## 7.3. 3D parts
 
 
 # 8. Reporting
-### 8.0.1. Sales Report
-### 8.0.2. Margin Report
-### 8.0.3. Inventory Report
+## 8.1. Sales Report
+## 8.2. Margin Report
+## 8.3. Inventory Report
