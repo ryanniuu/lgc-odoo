@@ -21,6 +21,7 @@
     - [1.6.2. Method 2: Modify Sales Order Quantity (Recommended for Small Partial Refunds)](#162-method-2-modify-sales-order-quantity-recommended-for-small-partial-refunds)
   - [1.7. Refund And Return (Already delivered)](#17-refund-and-return-already-delivered)
   - [1.8. Cancel order (with posted invoices)](#18-cancel-order-with-posted-invoices)
+  - [1.9. Order and Calendar Integration (Task Scheduling)](#19-order-and-calendar-integration-task-scheduling)
 - [2. Purchase Process](#2-purchase-process)
 - [3. Product Management](#3-product-management)
 - [4. Inventory Management](#4-inventory-management)
@@ -93,10 +94,21 @@ This section covers the standard workflow from initial sale to formal invoicing.
 
 ## 1.2. Use "Sale Package" feature
 ### 1.2.1. Load Packages in Quotation/Order
+When creating new Quotation/Order, select from Packages drop down list
+![](images/packages/package-select.png)
+
+
+Then the "Load Package" button should appear on the top, click it to load the product items included in the selected package
+![](images/packages/package-load.png)
+
 
 ### 1.2.2. Create Sale Packages (privileged user only)
+Administrators can create custom packages from scratch
+Please reach out if you want to create one
 
 ### 1.2.3. Create Package from Order (privileged user only)
+Administrators can create packages from existing orders
+Please reach out if you want to create one
 
 ## 1.3. Modify Order Quantity
 ### 1.3.1. 2.1 Increase Quantity or Add Line Items
@@ -203,6 +215,10 @@ After being returned to the warehouse, validate the returned allocation.
 ![](images/lgc_customer_invoice/image32.png)
 
 
+## 1.9. Order and Calendar Integration (Task Scheduling)
+![](images/odoo-order-and-calendar-item-steps.gif)
+
+[Back to Top](#1-sales-and-invocing)
 
 
 # 2. Purchase Process
