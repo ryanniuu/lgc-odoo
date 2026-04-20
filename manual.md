@@ -8,8 +8,8 @@
     - [1.2.2. Create Sale Packages (privileged user only)](#122-create-sale-packages-privileged-user-only)
     - [1.2.3. Create Package from Order (privileged user only)](#123-create-package-from-order-privileged-user-only)
   - [1.3. Modify Order Quantity](#13-modify-order-quantity)
-    - [1.3.1. 2.1 Increase Quantity or Add Line Items](#131-21-increase-quantity-or-add-line-items)
-    - [1.3.2. 2.2 Reduce Quantity](#132-22-reduce-quantity)
+    - [1.3.1. Increase Quantity or Add Line Items](#131-increase-quantity-or-add-line-items)
+    - [1.3.2. Reduce Quantity](#132-reduce-quantity)
   - [1.4. Adjust Invoiced Amount](#14-adjust-invoiced-amount)
   - [1.5. Register Payment](#15-register-payment)
     - [1.5.1. Method 1: Trun to invoice](#151-method-1-trun-to-invoice)
@@ -111,7 +111,7 @@ Administrators can create packages from existing orders
 Please reach out if you want to create one
 
 ## 1.3. Modify Order Quantity
-### 1.3.1. 2.1 Increase Quantity or Add Line Items
+### 1.3.1. Increase Quantity or Add Line Items
 1. Click the **"Edit"** button on the Sales Order.
 <!-- 这是一张图片，ocr 内容为： -->
 ![](images/lgc_customer_invoice/image9.png)
@@ -122,7 +122,7 @@ Please reach out if you want to create one
 <!-- 这是一张图片，ocr 内容为： -->
 ![](images/lgc_customer_invoice/image11.png)
 
-### 1.3.2. 2.2 Reduce Quantity
+### 1.3.2. Reduce Quantity
 + If the delivery note has not been locked value, simply adjust the quantity and save.
 + If the delivery note is already locked, the system will show a warning prompt.
 <!-- 这是一张图片，ocr 内容为： -->
