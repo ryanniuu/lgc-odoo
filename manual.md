@@ -6,7 +6,6 @@
   - [1.2. Use "Sale Package" feature](#12-use-sale-package-feature)
     - [1.2.1. Load Packages in Quotation/Order](#121-load-packages-in-quotationorder)
     - [1.2.2. Create Sale Packages (privileged user only)](#122-create-sale-packages-privileged-user-only)
-    - [1.2.3. Create Package from Order (privileged user only)](#123-create-package-from-order-privileged-user-only)
   - [1.3. Modify Order Quantity](#13-modify-order-quantity)
     - [1.3.1. Increase Quantity or Add Line Items](#131-increase-quantity-or-add-line-items)
     - [1.3.2. Reduce Quantity](#132-reduce-quantity)
@@ -103,12 +102,27 @@ Then the "Load Package" button should appear on the top, click it to load the pr
 
 
 ### 1.2.2. Create Sale Packages (privileged user only)
-Administrators can create custom packages from scratch
-Please reach out if you want to create one
+- create custom sale packages from scratch
+***Only the Users with right access (like managers)***
 
-### 1.2.3. Create Package from Order (privileged user only)
-Administrators can create packages from existing orders
-Please reach out if you want to create one
+Go to Sales module --> Configuration --> Sales Package
+
+If you don't see such menu items, use below URL directly:
+
+https://aurancampers.com/web?action=891&model=sale.package&view_type=list&cids=2%2C1%2C3%2C5&menu_id=227
+
+> ***Please Do Not Include Labour Items when creating Sale Packages***
+
+- create sale package from existing quotation/order
+***Only the Users with right access (like managers)***
+
+From any quotation/order, with access granted, you should be able to see the "Create Package" button
+
+> ***Please Do Not Include Labour Items when creating Sale Packages***
+
+
+Please reach out if you want to create one, ideally create a sample quotation as the base before doing so.
+
 
 ## 1.3. Modify Order Quantity
 ### 1.3.1. Increase Quantity or Add Line Items
