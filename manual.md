@@ -226,6 +226,7 @@ After being returned to the warehouse, validate the returned allocation.
 ![](images/lgc_customer_invoice/image31.png)
 
 + Register refund
+  If you don't need a refund, then you don't need to do this step. If you only need a partial refund, just enter the actual refund amount.
 ![](images/lgc_customer_invoice/image32.png)
 
 
